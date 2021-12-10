@@ -5,9 +5,10 @@ from tensorflow.keras.preprocessing import text
 from tensorflow import keras
 
 
+
 st.title("Sentiment Analysis")
 st.write('This is a Dummy Application which can analyse the sentiment of a Text Input.')
-st.write('The Model is trained on IMDB Movie Review data by Stanford using LSTM Blocks')
+st.write('The Model is trained on IMDB Movie Review data by Stanford using LSTM Blocks.')
 
 @st.cache()
 
